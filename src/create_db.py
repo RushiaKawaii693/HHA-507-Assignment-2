@@ -1,25 +1,17 @@
-"""Create an SQLite database from the SQL schema file.
-
-Creates clinic_simple.db in the repository root and applies sql/schema.sql.
-"""
 import sqlite3
-from pathlib import Path
 
+def create_database():
+    conn = sqlite3.connect("clinic_simple.db")
+    cur = conn.cursor()
 
-ROOT = Path(__file__).resolve().parents[1]
-DB_PATH = ROOT / "clinic_simple.db"
-SCHEMA_PATH = ROOT / "sql" / "schema.sql"
+    with open("sql/schema.sql", "r") as f:
+        schema = f.read()
+    cur.executescript(schema)
 
-
-def create_db():
-    if not SCHEMA_PATH.exists():
-        raise SystemExit(f"Schema file not found: {SCHEMA_PATH}")
-
-    with sqlite3.connect(DB_PATH) as conn:
-        sql = SCHEMA_PATH.read_text()
-        conn.executescript(sql)
-    print(f"Created database: {DB_PATH}")
-
+    conn.commit()
+    conn.close()
+    print("Database created successfully (clinic_simple.db).")
 
 if __name__ == "__main__":
-    create_db()
+    create_database()
+

@@ -7,13 +7,13 @@ FROM patients
 GROUP BY primary_icd10
 ORDER BY n DESC;
 
--- C) Office-visit CPTs since Jan 1, 2025 (CPT codes starting with 992)
+-- C) Office-visit CPTs since Jan 1, 2025
 SELECT patient_id, last_cpt, last_visit_dt
 FROM patients
 WHERE last_cpt LIKE '992%' AND last_visit_dt >= '2025-01-01'
 ORDER BY last_visit_dt DESC;
 
--- D) Age (approx) at last visit for the 5 oldest patients
+-- D) 5 oldest patients by age
 SELECT
   patient_id,
   birth_date,
@@ -23,7 +23,7 @@ FROM patients
 ORDER BY age_years DESC
 LIMIT 5;
 
--- E) Quick data quality check: any blank codes?
+-- E) Data quality check
 SELECT *
 FROM patients
 WHERE primary_icd10 = '' OR last_cpt = '';
