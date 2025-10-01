@@ -10,3 +10,5 @@ Health SQLite Lite is a simple project that demonstrates how to manage and analy
 2. Create database: `python src/create_db.py`
 3. Import patients CSV: `python src/import_csv.py`
 4. Open `clinic_simple.db` in DB Browser for SQLite and run `sql/analysis.sql`
+
+# Query results section:
