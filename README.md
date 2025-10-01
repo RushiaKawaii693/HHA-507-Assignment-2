@@ -1,7 +1,6 @@
 # Health SQLite Lite
 
-#Project Overview
-Health SQLite Lite
+# Project Overview
 Health SQLite Lite is a simple project that demonstrates how to manage and analyze healthcare data using SQLite and pandas in Python. The project provides scripts to create a sample clinic database, import patient data from CSV, and perform SQL-based data analysis for easy exploration and reporting.
 
 
