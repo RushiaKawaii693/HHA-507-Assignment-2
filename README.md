@@ -12,8 +12,11 @@ Health SQLite Lite is a simple project that demonstrates how to manage and analy
 4. Open `clinic_simple.db` in DB Browser for SQLite and run `sql/analysis.sql`
 
 # Query results section:
+A) Row count
+Description: Counts the total number of patients in the dataset.
+Result: 
 <img width="1919" height="1079" alt="Screenshot 2025-10-01 195915" src="https://github.com/user-attachments/assets/240f1bd3-72b7-412c-af87-a7a1ff625881" />
-
+Explanation: The database contains 25 patients.
 <img width="1919" height="1079" alt="Screenshot 2025-10-01 200640" src="https://github.com/user-attachments/assets/ef8f3cce-86b5-4bfa-84c0-d22e04b54655" />
 <img width="1919" height="1079" alt="Screenshot 2025-10-01 195940" src="https://github.com/user-attachments/assets/62907aff-ace1-4c96-b66c-f478c8352176" />
 
