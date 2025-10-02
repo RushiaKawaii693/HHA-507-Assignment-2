@@ -42,8 +42,9 @@ Description: Finds the five oldest patients based on birthdate and calculates th
 Result:
 <img width="1917" height="1078" alt="Screenshot 2025-10-01 195958" src="https://github.com/user-attachments/assets/88ef232e-0996-416f-8cbf-89ec47ef044b" />
 
-Explanation: The oldest patient in the dataset is 76 years old, and the results list the top five by age.
+Explanation: The oldest patient in the dataset is 76 years old, and the results list the top five by age with the youngest of the bunch being 65.
 
-<img width="1919" height="1079" alt="Screenshot 2025-10-01 195915" src="https://github.com/user-attachments/assets/240f1bd3-72b7-412c-af87-a7a1ff625881" />
+<img width="1917" height="1078" alt="Screenshot 2025-10-01 200942" src="https://github.com/user-attachments/assets/3c090382-69bd-4464-b0fb-9966a06e35e9" />
+
 
 
