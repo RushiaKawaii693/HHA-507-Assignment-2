@@ -28,8 +28,11 @@ SELECT *
 FROM patients
 WHERE primary_icd10 = '' OR last_cpt = '';
 
--- Ex:
+-- Example: patients with missing codes or placeholder values
 SELECT *
 FROM patients
-WHERE primary_icd10 LIKE 'E%' 
-   OR last_cpt LIKE '9%';
+WHERE primary_icd10 IS NULL 
+   OR primary_icd10 = 'UNK'
+   OR last_cpt IS NULL
+   OR last_cpt = '00000';
+
