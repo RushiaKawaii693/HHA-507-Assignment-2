@@ -20,6 +20,7 @@ Result:
 
 Explanation: The database contains 25 patients.
 
+
 B) Top primary diagnoses by count
 Description: Lists ICD-10 primary diagnoses and how many patients have each, ranked by frequency.
 
@@ -27,6 +28,7 @@ Result:
 <img width="1919" height="1079" alt="Screenshot 2025-10-01 200640" src="https://github.com/user-attachments/assets/ef8f3cce-86b5-4bfa-84c0-d22e04b54655" />
 
 Explanation: The most common diagnosis is E11.9 (Type 2 diabetes mellitus without complications) and K21.9 (Gastro-esophageal reflux disease without esophagitis) appearing in 3 patients each.
+
 
 C) Office-visit CPTs since Jan 1, 2025
 Description: Retrieves patients with office-visit CPT codes (992xx series) and visits on or after 2025-01-01.
@@ -36,6 +38,7 @@ Result:
 
 Explanation: The results show recent patient visits coded as office visits, sorted so the most recent ones appear first.
 
+
 D) 5 oldest patients by age
 Description: Finds the five oldest patients based on birthdate and calculates their age.
 
@@ -44,7 +47,12 @@ Result:
 
 Explanation: The oldest patient in the dataset is 76 years old, and the results list the top five by age with the youngest of the bunch being 65.
 
+
+E) Data quality check
+Description: Identifies patients with missing or placeholder diagnosis/CPT codes (NULLs, 'UNK', or '00000')
+
+Result:
 <img width="1917" height="1078" alt="Screenshot 2025-10-01 200942" src="https://github.com/user-attachments/assets/3c090382-69bd-4464-b0fb-9966a06e35e9" />
 
-
+Explanation: No patients had missing or placeholder ICD-10 or CPT codes, showing that all information was recorded..
 
