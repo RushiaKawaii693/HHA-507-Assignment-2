@@ -27,3 +27,9 @@ LIMIT 5;
 SELECT *
 FROM patients
 WHERE primary_icd10 = '' OR last_cpt = '';
+
+-- Ex:
+SELECT *
+FROM patients
+WHERE primary_icd10 LIKE 'E%' 
+   OR last_cpt LIKE '9%';
