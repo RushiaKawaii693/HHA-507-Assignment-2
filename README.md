@@ -28,8 +28,13 @@ Result:
 
 Explanation: The most common diagnosis is E11.9 (Type 2 diabetes mellitus without complications) and K21.9 (Gastro-esophageal reflux disease without esophagitis) appearing in 3 patients each.
 
+C) Office-visit CPTs since Jan 1, 2025
+Description: Retrieves patients with office-visit CPT codes (992xx series) and visits on or after 2025-01-01.
 
+Result:
 <img width="1919" height="1079" alt="Screenshot 2025-10-01 195940" src="https://github.com/user-attachments/assets/62907aff-ace1-4c96-b66c-f478c8352176" />
+
+Explanation: The results show recent patient visits coded as office visits, sorted so the most recent ones appear first.
 
 <img width="1917" height="1078" alt="Screenshot 2025-10-01 195958" src="https://github.com/user-attachments/assets/88ef232e-0996-416f-8cbf-89ec47ef044b" />
 <img width="1919" height="1079" alt="Screenshot 2025-10-01 195915" src="https://github.com/user-attachments/assets/240f1bd3-72b7-412c-af87-a7a1ff625881" />
