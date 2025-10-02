@@ -17,5 +17,8 @@ Health SQLite Lite is a simple project that demonstrates how to manage and analy
 <img width="1919" height="1079" alt="Screenshot 2025-10-01 195940" src="https://github.com/user-attachments/assets/62907aff-ace1-4c96-b66c-f478c8352176" />
 <img width="1919" height="1079" alt="Screenshot 2025-10-01 200232" src="https://github.com/user-attachments/assets/2cc29301-148b-4372-9acf-9cbe4d67bc44" />
 <img width="1917" height="1079" alt="Screenshot 2025-10-01 195342" src="https://github.com/user-attachments/assets/a858df89-4b15-4fc8-9ad0-96eb35f32566" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-01 195915" src="https://github.com/user-attachments/assets/240f1bd3-72b7-412c-af87-a7a1ff625881" />
+<img width="1917" height="1078" alt="Screenshot 2025-10-01 195958" src="https://github.com/user-attachments/assets/88ef232e-0996-416f-8cbf-89ec47ef044b" />
+
 
 
