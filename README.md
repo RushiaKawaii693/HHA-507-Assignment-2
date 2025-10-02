@@ -5,15 +5,15 @@ Health SQLite Lite is a simple project that demonstrates how to manage and analy
 
 
 
-## How to run
+# How to run
 1. Install dependencies: `pip install -r requirements.txt`
 2. Create database: `python src/create_db.py`
 3. Import patients CSV: `python src/import_csv.py`
 4. Open `clinic_simple.db` in DB Browser for SQLite and run `sql/analysis.sql`
 
-## Query results section:
+# Query results section:
 
-# A) Row count
+## A) Row count
 Description: Counts the total number of patients in the dataset.
 
 Result: 
@@ -22,7 +22,7 @@ Result:
 Explanation: The database contains 25 patients.
 
 
-# B) Top primary diagnoses by count
+## B) Top primary diagnoses by count
 Description: Lists ICD-10 primary diagnoses and how many patients have each, ranked by frequency.
 
 Result:
@@ -31,7 +31,7 @@ Result:
 Explanation: The most common diagnosis is E11.9 (Type 2 diabetes mellitus without complications) and K21.9 (Gastro-esophageal reflux disease without esophagitis) appearing in 3 patients each.
 
 
-# C) Office-visit CPTs since Jan 1, 2025
+## C) Office-visit CPTs since Jan 1, 2025
 Description: Retrieves patients with office-visit CPT codes (992xx series) and visits on or after 2025-01-01.
 
 Result:
@@ -40,7 +40,7 @@ Result:
 Explanation: The results show recent patient visits coded as office visits, sorted so the most recent ones appear first.
 
 
-# D) 5 oldest patients by age
+## D) 5 oldest patients by age
 Description: Finds the five oldest patients based on birthdate and calculates their age.
 
 Result:
@@ -49,7 +49,7 @@ Result:
 Explanation: The oldest patient in the dataset is 76 years old, and the results list the top five by age with the youngest of the bunch being 65.
 
 
-# E) Data quality check
+## E) Data quality check
 Description: Identifies patients with missing or placeholder diagnosis/CPT codes (NULLs, 'UNK', or '00000')
 
 Result:
