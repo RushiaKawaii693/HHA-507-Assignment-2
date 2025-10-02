@@ -12,3 +12,4 @@ Health SQLite Lite is a simple project that demonstrates how to manage and analy
 4. Open `clinic_simple.db` in DB Browser for SQLite and run `sql/analysis.sql`
 
 # Query results section:
+![Alt text]<img width="1917" height="1078" alt="Screenshot 2025-10-01 200942" src="https://github.com/user-attachments/assets/4d9d6f03-f6ae-41b4-95d2-416f0c3477a1" />
